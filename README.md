@@ -1,4 +1,4 @@
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/59557720/105834619-0edb6500-600e-11eb-99d3-200336373af8.png)
 # 🔥 웹 프로그래밍을 위해 Django를 공부함
 > 2021.01 ~    
 > 서적을 구매해 예제를 통해 독학
