@@ -5,11 +5,11 @@
 
 ### 1. 사이트 설계하기
 **질문 -> 답변을 투표 -> 결과 집계 화면**   
-위 형식으로 사이트를 구성할 것이므로 4개의 view 함수( index(), detail(), vote(), results() )와 3개의 Tempalte(index, detail, results)를 코딩한다.   
+위 형식으로 사이트를 구성할 것이므로 4개의 view 함수( index(), detail(), vote(), results() )와 3개의 Tempalte(index, detail, results)를 코딩함.   
 
 ### 2. URLconf 코딩
-> url.py에서 자신이 설계한 페이지의 url과 그 url을 어떤 View와 매칭 시킬지 정의해줍니다.
-> 지금은 간단하지만, 실제로는 수많은 애플리케이션이 있을 수 있기 때문에 URLconf를 계층적으로 구성해야함
+> url.py에서 자신이 설계한 페이지의 url과 그 url을 어떤 View와 매칭 시킬지 정의해줍니다.   
+> 지금은 간단하지만, 실제로는 수많은 애플리케이션이 있을 수 있기 때문에 URLconf를 계층적으로 구성해야함   
 ```shell
 # 구조가 굉장히 간단함
 urlpatterns = [
@@ -22,8 +22,8 @@ urlpatterns = [
 [상위url파일](https://github.com/inhovation97/Django_study/blob/main/django_ex/ch3/mysite/urls.py)에서 받음
 
 ### 3. View, Template 코딩
-> 질문 화면 -> 답변을 투표하는 화면
-> UI 화면을 생각하면서 로직을 풀어나가면 쉽기 때문에 Template을 먼저 코딩
+> 질문 화면 -> 답변을 투표하는 화면   
+> UI 화면을 생각하면서 로직을 풀어나가면 쉽기 때문에 Template을 먼저 코딩   
 template 디렉토리 만들어주기
 ```shell
 cd ch3\polls
