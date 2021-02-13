@@ -8,7 +8,7 @@
 cd ch3
 python manage.py createsuperuser
 ```
-슈퍼계정으로 접속하면, 기본적으로 Groups, Users 테이블이 있다.
+슈퍼계정으로 접속하면, 기본적으로 Groups, Users 테이블이 있다.   
 앞서 말했듯이 여기에 애플리케이션의 테이블을 만들어서 admin에 등록해주면, admin에서 직관적으로 데이터를 조작할 수 있다.
 ### 2. admin에 등록할 애플리케이션(polls)을 개발하자 - Model 코딩
 > 앞서 만든 polls라는 애플리케이션의 테이블을 만들었다.   
@@ -20,5 +20,5 @@ cd ch3
 python manage.py makemigrations
 python manage.py migrate
 ```
-![image](https://user-images.githubusercontent.com/59557720/107843769-20e04480-6e11-11eb-8ff8-86976c3298f5.png)
+![image](https://user-images.githubusercontent.com/59557720/107843769-20e04480-6e11-11eb-8ff8-86976c3298f5.png)   
 위에서 만든 테이블이 등록됨을 알 수 있다.
