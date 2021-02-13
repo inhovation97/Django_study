@@ -12,8 +12,8 @@ python manage.py createsuperuser
 앞서 말했듯이 여기에 애플리케이션의 테이블을 만들어서 admin에 등록해주면, admin에서 직관적으로 데이터를 조작할 수 있다.
 ### 2. admin에 등록할 애플리케이션(polls)을 개발하자 - Model 코딩
 > 앞서 만든 polls라는 애플리케이션의 테이블을 만들었다.   
-> 테이블은 [models.py]()에서 정의한다.   
-> [admin.py]()에서 resister함수를 통해 테이블을 반영해준다.   
+> 테이블은 [models.py](https://github.com/inhovation97/Django_study/blob/main/django_ex/ch3/polls/models.py)에서 정의한다.   
+> [admin.py](https://github.com/inhovation97/Django_study/blob/main/django_ex/ch3/polls/admin.py)에서 resister함수를 통해 테이블을 반영해준다.   
 > 데이터베이스에 변경사항을 반영해주어야하므로 아래 명령어를 입력해주어야한다.
 ```shell
 cd ch3
