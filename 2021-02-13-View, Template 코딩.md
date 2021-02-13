@@ -32,7 +32,7 @@ mkdir templates\polls
 cd tempaltes\polls
 notepad index.html # html 생성
 ```
-**코딩 순서**   
+#### **코딩 순서**   
 가장 먼저 [index.html](https://github.com/inhovation97/Django_study/blob/main/django_ex/ch3/polls/templates/polls/index.html)코딩   
 view.py에서 [index 매핑 함수](https://github.com/inhovation97/Django_study/blob/main/django_ex/ch3/polls/views.py)코딩   
 두번째 페이지인 [detail.html](https://github.com/inhovation97/Django_study/blob/main/django_ex/ch3/polls/templates/polls/detail.html)을 코딩   
